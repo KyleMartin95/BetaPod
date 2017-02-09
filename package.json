@@ -1,0 +1,21 @@
+{
+  "name": "BetaPod",
+  "version": "1.0.0",
+  "description": "Website for COMP 390/BetaPod",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  }
+}
