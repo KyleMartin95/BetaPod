@@ -24,20 +24,32 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-default">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
           <div class="container">
               <div class="navbar-header">
-                  <a class="navbar-brand" href="/">BetaPod</a>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                  </button>
+                <a class="navbar-brand page-scroll" href="#page-top">BetaPod</a>
               </div>
 
-              <ul class="nav navbar-nav navbar-right">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/help">Help</a></li>
-                  <li><a href="/login"></i>Login</a></li>
-              </ul>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#download">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Help</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Login</a>
+                    </li>
+                </ul>
+            </div>
           </div>
         </nav>
     </header>
+    
 
     {{{body}}}
   </body>
