@@ -1,5 +1,48 @@
-#registerContainer{
-  float: right;
-  width: 40%;
-  margin-right: 5px;
+.container{
+  text-align: center;
+}
+.business-header {
+    height: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;v
+    /*background: url('http://localhost:8080/images/header-background.jpg') center center no-repeat scroll;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#upper-header{
+  font-size: 70px;
+  text-align: center;
+}
+
+#lower-header{
+  margin-top: 100px;
+}
+
+.sub-header{
+  text-align: center;
+}
+
+.value-prop{
+  margin-top: 75px
+}
+
+.middle-border {
+	min-height: 300px;
+	margin-top: 145px;
+	border-right: 1px solid #ddd;
+}
+
+.form-box {
+	margin-top: 75px;
+}
+
+.centered-image{
+  float: center;
+}
+
+i, strong{
+  color: #19b9e7;
 }

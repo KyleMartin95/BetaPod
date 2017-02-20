@@ -1,52 +1,101 @@
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-xs-12">
-        <h1><strong>Get that new tech excitement, without that new tech price.</strong></h1>
-        <h1>Experience the newest devices in tech by signing up for a free subscription trial!</h1>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <div class="signup-container">
-          <div class="container" id="registerContainer">
-            <div class="row">
-              <form class="form-signin">
-                <h2 class="form-signin-heading">Regsiter Here</h2>
-                <label class="sr-only" for="inputEmail">Email address</label>
-                <input class="form-control" id="inputPassword" required="" type="password" placeholder="Password"><input class="form-control" id="inputEmail" autofocus="" required="" type="email" placeholder="Email address">
-                <label class="sr-only" for="inputPassword">Password</label>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up!</button>
-              </form>
-            </div>
-          </div>  
+<header class="business-header">
+    <div class="container">
+
+        <div class="row" id="upper-header">
+          <div class="col-xs-12">
+            <h1>Beta<i>Pod</i></h1>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</sheader>
 
-<section class="about">
-  <div class="container">
-    <div class="row">
-      <h2>Experience the <strong>new</strong> way to test-drive the newest groundbreaking technology.</h2>
-      <p>BetaPod's monthly subscription service allows you to explore the latest devices from a variety of insdustries. All you need to do is sign up and choose the tech which interests you. Then, every two weeks we'll send you something from your list in a pod. Once you're done, just send it back!</p>
-    </div>
-  </div>
-</section>
+        <div class="row" id="lower-header">
+          <div class="col-sm-5 value-prop">
+            <h1><strong>Get that new tech excitement, without that new tech price.</strong></h1>
+            <h1>Experience the newest devices in tech by signing up for a free subscription trial!</h1>
+          </div>
 
-<section class="features">
-  <div class="container">
+          <div class="col-sm-1 middle-border"></div>
+          <div class="col-sm-1"></div>
+
+          <div class="col-sm-5">
+          	<div class="form-box">
+          		<div class="form-top">
+                <div class="form-top-left">
+            			<h3>Sign up now</h3>
+                		<p>Fill in the form below to get instant access:</p>
+            		</div>
+                <div class="form-top-right">
+            			<i class="fa fa-pencil"></i>
+            		</div>
+               </div>
+               <div class="form-bottom">
+                <form role="form" action="" method="post" class="registration-form">
+                	<div class="form-group">
+                		<label class="sr-only" for="form-first-name">First name</label>
+                    	<input type="text" name="form-first-name" placeholder="First name" class="form-first-name form-control" id="form-first-name">
+                   </div>
+                  <div class="form-group">
+                  	<label class="sr-only" for="form-last-name">Last name</label>
+                  	<input type="text" name="form-last-name" placeholder="Last name" class="form-last-name form-control" id="form-last-name">
+                  </div>
+                  <div class="form-group">
+                  	<label class="sr-only" for="form-email">Email</label>
+                  	<input type="text" name="form-email" placeholder="Email" class="form-email form-control" id="form-email">
+                  </div>
+                  <button type="submit" class="btn">GET STARTED TODAY!</button>
+                </form>
+               </div>
+          	</div>
+          </div>
+        </div>
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+    <hr>
+
     <div class="row">
-      <div class="col-md-6 col-sxs-12">
-        <img alt="image here" >
-        <h2>Try the <strong>latest</strong> tech from a variety of industries</h2>
-        <p>BetaPod makes it easy to explore groundbreaking devices related to your interests.</p>
-      </div>
-      <div class="col-md-6 col-xs-12">
-        <img alt="image here" >
-        <h2><strong>Delivered</strong> right to your door</h2>
-        <p>With a BetaPod monthly subscription, all you need to do is choose what interests you, and we'll send a pod containing your tech straight to you. After you're done, just send your pod back!</p>
-      </div>
+        <div class="col-sm-12 sub-header">
+            <h2>Experience the <strong>new</strong> way to test-drive groundbreaking technology.</h2>
+            <h3>BetaPod's monthly subscription service allows you to explore the latest devices from a variety of insdustries. All you need to do is sign up and choose the tech which interests you. Then, every two weeks we'll send you something from your list in a pod. Once you're done, just send it back!</h3>
+        </div>
+    </div>
+    <!-- /.row -->
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="img-circle" class="centered-image" src="http://placehold.it/300x300" alt="">
+            <h2>Try the <strong>latest</strong> tech from a variety of industries</h2>
+            <p>BetaPod's monthly subscription service allows you to explore the latest devices from a variety of insdustries.</p>
+        </div>
+        <div class="col-sm-6">
+            <img class="img-circle" class="centered-image" src="http://placehold.it/300x300" alt="">
+            <h2><strong>Delivered</strong> right to your door</h2>
+            <p>All you need to do is sign up and choose the tech which interests you. Then, every two weeks we'll send you something from your list in a pod. Once you're done, just send it back!</p>
+        </div>
+    </div>
+    <!-- /.row -->
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h3>Start experiencing the latest groundbreaking devices in just a matter of minutes by signing up for a free trial!</h3>
+        <button type="submit" class="btn" onclick="$('html,body').animate({scrollTop:0},'slow');">GET STARTED TODAY!</button>
       </div>
     </div>
-  </div>
-</section>
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; BetaPod 2017</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </footer>
+
+</div>
+<!-- /.container -->
