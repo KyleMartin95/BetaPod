@@ -14,11 +14,11 @@
 
 #upper-header{
   font-size: 70px;
-  text-align: center;
 }
 
 #lower-header{
   margin-top: 100px;
+  text-align: left;
 }
 
 .sub-header{
@@ -32,7 +32,7 @@
 .middle-border {
 	min-height: 300px;
 	margin-top: 145px;
-	border-right: 1px solid #ddd;
+	border-right: 3px solid #ddd;
 }
 
 .form-box {
@@ -41,6 +41,11 @@
 
 .centered-image{
   float: center;
+}
+
+#lower-call-to-actn{
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 i, strong{
