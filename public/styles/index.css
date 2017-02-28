@@ -2,10 +2,8 @@
   text-align: center;
 }
 .business-header {
-    height: 900px;
-    margin-top: 40px;
-    margin-bottom: 40px;v
-    /*background: url('http://localhost:8080/images/header-background.jpg') center center no-repeat scroll;*/
+    height: 980px;
+    /*background: url('http://localhost:8080/images/header-background.jpg');*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -19,10 +17,6 @@
 #lower-header{
   margin-top: 100px;
   text-align: left;
-}
-
-.sub-header{
-  text-align: center;
 }
 
 .value-prop{
@@ -39,8 +33,31 @@
 	margin-top: 75px;
 }
 
+.page-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sub-header{
+  text-align: center;
+}
+
+.homepage_icon{
+  width: 180px;
+  height: 180px;
+}
+
+.homepage-product{
+  width: 300px;
+  height: 300px;
+}
+
 .centered-image{
   float: center;
+}
+
+#how-it-works{
+  padding-bottom: 30px;
 }
 
 #lower-call-to-actn{
