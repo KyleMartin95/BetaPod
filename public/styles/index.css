@@ -68,3 +68,7 @@
 i, strong{
   color: #19b9e7;
 }
+
+hr{
+  border-width: 3px;
+}
