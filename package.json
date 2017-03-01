@@ -4,7 +4,7 @@
   "description": "Website for COMP 390/BetaPod",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,8 +16,6 @@
     "mysql": "^2.13.0"
   },
   "devDependencies": {
-    "flightplan": "^0.6.15",
-    "fly": "^2.0.5",
     "morgan": "^1.7.0",
     "nodemon": "^1.11.0"
   }
