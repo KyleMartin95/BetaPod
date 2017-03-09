@@ -4,7 +4,7 @@
 
 .product{
 	border: 1px solid #dddddd;
-	height: 200px;
+	height: 350px;
   margin-left: 15px;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .service-image-left {
-	
+
   padding-left: 0px;
 }
 
@@ -122,5 +122,5 @@
 }
 
 .service-image-left > center > img,.service-image-right > center > img{
-	max-height: 155px;
+	max-height: 100%;
 }

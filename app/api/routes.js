@@ -58,13 +58,13 @@ router
 router
   .route('/products/360_camera')
   .get(function(req, res){
-    res.render('products/360_camera', {layout: 'product.hbs', title: 'BetaPod', condition: false, css: ['products.css'], product_image: '/images/products/360_camer.jpg', product_title: 'LG G5 360 Degree Camera', product_description: '', stock: 'In Stock', product_info: 'Capture the world around you in all directions with the LG 360 CAM Spherical Camera. This camera uses two 13MP sensors along with two 200° wide-angle lenses to capture photos and 2K video in 360°. Three microphones record 5.1-channel surround sound. Media recorded with the 360 CAM can be uploaded to Google Street View and YouTube360, and are also viewable on the LG 360 VR as well as smartphones and other devices capable of displaying 360° content. It stores pictures and video on 4GB of internal memory, which can be augmented with a microSD card. The 1200mAh battery lets it run without a power source.'})
+    res.render('products/360_camera', {layout: 'product.hbs', title: 'BetaPod', condition: false, css: ['products.css'], product_image: '/images/products/360_camera.jpg', product_title: 'LG G5 360 Degree Camera', product_description: '', stock: 'In Stock', product_info: 'Capture the world around you in all directions with the LG 360 CAM Spherical Camera. This camera uses two 13MP sensors along with two 200° wide-angle lenses to capture photos and 2K video in 360°. Three microphones record 5.1-channel surround sound. Media recorded with the 360 CAM can be uploaded to Google Street View and YouTube360, and are also viewable on the LG 360 VR as well as smartphones and other devices capable of displaying 360° content. It stores pictures and video on 4GB of internal memory, which can be augmented with a microSD card. The 1200mAh battery lets it run without a power source.'})
   });
 
 router
   .route('/products/3-d_pen')
   .get(function(req, res){
-    res.render('products/3-d_pen', {layout: 'product.hbs', title: 'BetaPod', condition: false, css: ['products.css'], product_image: '/images/products/3-d_pen.jpg', product_title: 'Soyan 3-D Pen', product_description: '', stock: 'In Stock', product_info: 'Draw vertically. Draw horizontally. Lift your imagination off the page! The 3D printing pen extrudes heated plastic which instantly hardens, allowing you to literally draw in 3D, freehand or on paper. Change colors quickly and easily. The possibilities are endless'})
+    res.render('products/3-D_pen', {layout: 'product.hbs', title: 'BetaPod', condition: false, css: ['products.css'], product_image: '/images/products/3-d_pen.jpg', product_title: 'Soyan 3-D Pen', product_description: '', stock: 'In Stock', product_info: 'Draw vertically. Draw horizontally. Lift your imagination off the page! The 3D printing pen extrudes heated plastic which instantly hardens, allowing you to literally draw in 3D, freehand or on paper. Change colors quickly and easily. The possibilities are endless'})
   });
 
 router

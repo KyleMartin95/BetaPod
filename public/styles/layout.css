@@ -48,14 +48,20 @@ textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { co
 input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
 
+.page-scroll{
+	margin-right: 15px;
+}
 
+.collapse{
+	height: 70px;
+}
 
 button.btn {
 	height: 50px;
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #19b9e7;
+    background: #2C9399;
     border: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -87,7 +93,7 @@ body {
 }
 
 a, a:hover, a:focus {
-	color: #19b9e7;
+	color: #2C9399;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }

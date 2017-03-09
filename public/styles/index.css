@@ -10,12 +10,16 @@
     -o-background-size: cover;
 }
 
+#homepage_logo{
+  height: auto;
+  max-height: 120px;
+}
+
 #upper-header{
   font-size: 70px;
 }
 
 #lower-header{
-  margin-top: 100px;
   text-align: left;
 }
 
@@ -66,7 +70,7 @@
 }
 
 i, strong{
-  color: #19b9e7;
+  color: #2C9399;
 }
 
 hr{
