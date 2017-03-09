@@ -3,6 +3,7 @@
 }
 .business-header {
     height: 980px;
+    margin-top: 15px;
     /*background: url('http://localhost:8080/images/header-background.jpg');*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,10 +22,11 @@
 
 #lower-header{
   text-align: left;
+  margin-top: 85px;
 }
 
 .value-prop{
-  margin-top: 75px
+  margin-top: 85px;
 }
 
 .middle-border {
@@ -34,7 +36,7 @@
 }
 
 .form-box {
-	margin-top: 75px;
+	margin-top: 85px;
 }
 
 .page-section{
