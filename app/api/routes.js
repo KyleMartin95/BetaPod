@@ -16,7 +16,7 @@ router
 router
   .route('/products')
   .get(function(req, res){
-    res.render('main_pages/products', {title: 'BetaPod Products', condition: false, css: ['shop-homepage.css']})
+    res.render('main_pages/products-homepage', {title: 'BetaPod Products', condition: false, css: ['products-homepage.css']})
   });
 
 router

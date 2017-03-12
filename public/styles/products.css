@@ -36,8 +36,8 @@
 }
 
 .product-info{
-		margin-top: 50px;
     padding: 0px;
+		overflow: auto;
 }
 
 /*********************************************
