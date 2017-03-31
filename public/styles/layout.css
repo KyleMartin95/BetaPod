@@ -99,7 +99,6 @@ button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; bac
 
 
 body {
-	background: url('http://localhost:8080/images/background.jpg') left top repeat;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
