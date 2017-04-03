@@ -4,7 +4,7 @@ var router = express.Router();
 router
   .route('/')
   .get(function(req, res){
-    res.render('main_pages/index', {title: 'BetaPod', condition: false, css: ['index.css']})
+    res.render('main_pages/index', {layout: 'layout.hbs', title: 'BetaPod', condition: false, css: ['index.css']})
   });
 
 router
