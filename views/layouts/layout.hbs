@@ -25,7 +25,7 @@
     <meta property="og:site_name" content="BetaPod">
 
     <meta property="og:description" content="BetaPod is a subscription-based service for people to experience the exciting devices they have always wanted to try. Get that new tech thrill without that new tech price.">
-    
+
     <title>{{title}}</title>
     <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -49,29 +49,29 @@
 
 </head>
 <body>
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="navbar-header">
+      <nav id="mainNav" class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-bar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/"><image src="/images/official_betapod_logo_2.png"></a>
+          </div>
 
-      <a class="navbar-brand page-scroll" href="/"><image src="/images/official_betapod_logo_2.png"></a>
-    </div>
-
-    <div class="navbar-right">
-      <ul class="nav navbar-nav">
-          <li>
-              <a class="page-scroll" href="/">Home</a>
-          </li>
-          <li>
-              <a class="page-scroll hidden" href="/help">Help</a>
-          </li>
-          <li>
-              <a class="page-scroll hidden" href="/login">Login</a>
-          </li>
-          <li>
-              <a class="page-scroll" href="/products">Products</a>
-          </li>
-      </ul>
-    </div>
-  </nav>
+          <div class="collapse navbar-collapse" id="navigation-bar">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/products">Products</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     {{{body}}}
 
