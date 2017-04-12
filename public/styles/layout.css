@@ -45,7 +45,7 @@ input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-i
 textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
 
 body{
-	margin-top: 75px;
+	margin-top: 80px;
 }
 
 .navbar-static-top{
