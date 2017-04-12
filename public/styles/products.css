@@ -1,9 +1,28 @@
+/*******************NAV**********************/
+.navbar-static-top{
+	margin-bottom: 20px;
+}
+
+.navbar-brand{
+	margin: 6px;
+	padding: 0px;
+}
+
+.page-scroll > img{
+	width: auto;
+	height: 100%;
+}
+	.navbar-nav li > a{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
 /*********************************************
 					PRODUCTS
 *********************************************/
 
 .product{
-	border: 1px solid #dddddd;
+	
 	height: 350px;
   margin-left: 15px;
 }
@@ -66,8 +85,6 @@
 }
 
 .container {
-	padding-left: 0px;
-	padding-right: 0px;
 	max-width: 100%;
 }
 
