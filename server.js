@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var hbs = require('express-handlebars');
 var path = require('path');
+var favicon = require('serve-favicon');
 
 // configuration =======================================
 var app = express(); //Express
@@ -20,6 +21,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // routes ==============================================
 app.use(express.static(__dirname + '/public')); //set route for static files
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 var routes = require('./app/api/routes');
 app.use('/', routes); // configure our routes
 

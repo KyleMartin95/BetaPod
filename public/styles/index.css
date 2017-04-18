@@ -2,9 +2,8 @@
   text-align: center;
 }
 .business-header {
-    height: 980px;
-    margin-top: 15px;
-    /*background: url('http://localhost:8080/images/header-background.jpg');*/
+    height: 1010px;
+    /*background: url('/images/tinted_cover_photo.jpg');*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,7 +31,7 @@
 .middle-border {
 	min-height: 300px;
 	margin-top: 145px;
-	border-right: 3px solid #ddd;
+	border-right: 3px solid #DDD;
 }
 
 .form-box {
