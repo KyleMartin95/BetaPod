@@ -2,13 +2,22 @@
   text-align: center;
 }
 .business-header {
+    margin-top: -9px;
     height: 1010px;
-    /*background: url('/images/tinted_cover_photo.jpg');*/
+
+}
+
+@media (min-width: 1280px) {
+  .business-header{
+    background: url('/images/tinted_cover_photo.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+  }
 }
+
+
 
 #homepage_logo{
   height: auto;
@@ -31,11 +40,12 @@
 .middle-border {
 	min-height: 300px;
 	margin-top: 145px;
-	border-right: 3px solid #DDD;
+	border-right: 3px solid #666;
 }
 
 .form-box {
 	margin-top: 85px;
+  border: 1px solid #666;
 }
 
 .page-section{
